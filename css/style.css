@@ -52,6 +52,7 @@
                     margin: 40px auto;
                     font-size: 28px;
                     line-height: 2.5;
+                    border: solid 3px #575653;
                     opacity: 0;
                     transform: translate(0, 50px);
                     transition: all 1500ms;
@@ -64,7 +65,7 @@
                 
                 .title {
                     text-align: center;
-                    margin: 40px auto;
+                    margin: 70px;
                     font-size: 40px;
                     line-height: 1.5;
                     opacity: 0;
@@ -82,6 +83,7 @@
                     text-align: center;
                     color: white;
                     background-color: rgb(216, 212, 212);
+                    border: double 5px #1a1b1b;
                     padding: 20px;
                     margin: 10px;
                 }
