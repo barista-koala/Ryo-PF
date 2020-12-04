@@ -45,6 +45,23 @@
                     text-align: center;
                 }
                 
+                .description {
+                    text-align: center;
+                    max-width: 924px;
+                    width: 80%;
+                    margin: 40px auto;
+                    font-size: 28px;
+                    line-height: 2.5;
+                    opacity: 0;
+                    transform: translate(0, 50px);
+                    transition: all 1500ms;
+                }
+                
+                .description.scrollin {
+                    opacity: 1;
+                    transform: translate(0, 0);
+                }
+                
                 .title {
                     text-align: center;
                     margin: 40px auto;
@@ -63,31 +80,15 @@
                 .link_about {
                     text-decoration: none;
                     text-align: center;
-                    background: black;
                     color: white;
+                    background-color: rgb(216, 212, 212);
                     padding: 20px;
+                    margin: 10px;
                 }
                 
                 .link_about:hover {
-                    background: silver;
+                    background: #f0ecec;
                     text-decoration: none;
-                }
-                
-                .description {
-                    text-align: center;
-                    max-width: 924px;
-                    width: 80%;
-                    margin: 40px auto;
-                    font-size: 28px;
-                    line-height: 2.5;
-                    opacity: 0;
-                    transform: translate(0, 50px);
-                    transition: all 1500ms;
-                }
-                
-                .description.scrollin {
-                    opacity: 1;
-                    transform: translate(0, 0);
                 }
                 
                 .about {
@@ -102,77 +103,15 @@
                     transform: translate(0, 0);
                 }
                 
-                ul {
-                    list-style: none;
-                    width: 100%;
-                }
-                
-                ul.link_text li {
-                    margin: 60px;
-                }
-                
-                a:link {
-                    color: blanchedalmond;
-                    font-size: 30px;
-                    text-decoration: none;
-                    background: black;
-                }
-                
-                .vs-video {
-                    position: relative;
-                    height: 0;
-                    padding: 30px 0 56.25%;
-                    overflow: hidden;
-                    margin: 0 0 60px 0;
-                }
-                
-                .vs-video iframe {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                }
-                
-                .rule-video {
-                    position: relative;
-                    height: 0;
-                    padding: 30px 0 56.25%;
-                    overflow: hidden;
-                }
-                
-                .rule-video iframe {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                }
-                
-                .last {
+                .information a {
                     text-align: center;
-                    margin: 50px;
-                    font-size: 60px;
+                    margin: 80px;
+                    padding: 70px;
+                    font-size: 40px;
                     line-height: 1.5;
-                    opacity: 0;
-                    transform: translate(0, 50px);
-                    transition: all 1500ms;
                 }
                 
-                .last.scrollin {
+                .information.scrollin {
                     opacity: 1;
                     transform: translate(0, 0);
-                }
-                
-                a.amazon_link {
-                    text-decoration: none;
-                    text-align: center;
-                    background: black;
-                    color: seashell;
-                    padding: 30px;
-                }
-                
-                .amazon_link:hover {
-                    background-color: goldenrod;
-                    text-decoration: none;
                 }
