@@ -1,7 +1,7 @@
                 @charset "utf-8";
                 body {
                     line-height: 1;
-                    background-color: burlywood;
+                    background-color: rgb(241, 204, 155);
                     color: azure;
                     margin-right: 10px;
                     margin-left: 10px;
